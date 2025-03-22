@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            scroll-behavior: smooth;
+        }
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 40px;
+        }
+        .section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        #apply-section {
+            background: #f4f4f4;
+        }
+        #get-section {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div id="apply-section" class="section">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Our landing page is designed to provide you with an easy and seamless experience. Whether you are looking to apply for a new opportunity or simply get started with our services, we have got you covered. 
+        Our platform is built to help you navigate through the process effortlessly. We believe in providing top-notch services that cater to your needs, ensuring that you achieve your goals efficiently.</p>
+        <p>By clicking the "Apply Now" button below, you will be taken to the next section where you can get started immediately. Our process is simple, fast, and effective. We are committed to making your journey smooth, 
+        so you can focus on what truly matters. Take the first step towards success by applying now.</p>
+        <button class="button" onclick="location.href='#get-section'">Apply Now</button>
+    </div>
+    <div id="get-section" class="section">
+        <h1>Get Started Now</h1>
+        <p>We understand that taking the first step can sometimes be overwhelming. That’s why we are here to guide you through every step of the way. Our services are tailored to meet your unique needs, providing you with 
+        everything you need to succeed. Whether you are looking to enhance your skills, grow your career, or take on a new challenge, we are here to support you.</p>
+        <p>By clicking the "Get Now" button, you will gain access to exclusive resources, expert guidance, and a community of like-minded individuals who are ready to help you achieve your dreams. Don’t wait any longer—
+        take action today and start your journey towards success!</p>
+        <button class="button" onclick="alert('Getting Started!')">Get Now</button>
+    </div>
+</body>
+</html>
